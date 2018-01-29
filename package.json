@@ -1,0 +1,24 @@
+{
+  "name": "japanesetokenizer",
+  "version": "1.0.0",
+  "description": "Tokenizes Japanese text",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aexiting/japanesetokenizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aexiting/japanesetokenizer/issues"
+  },
+  "homepage": "https://github.com/aexiting/japanesetokenizer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "kuromoji": "^0.1.1"
+  }
+}

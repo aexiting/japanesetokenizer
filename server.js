@@ -1,0 +1,8 @@
+var app = require('./app');
+var tokenizer = require('./tokenizer.js')
+var port = process.env.PORT || 3000;
+
+
+var server = app.listen(port, function(){
+	console.log('Express server listening on port' + port);
+});

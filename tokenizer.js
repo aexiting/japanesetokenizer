@@ -131,9 +131,9 @@ function tokenize(jpString){
 
 
 router.post('/',function(req, res){
-
+    console.log(req.data);
     var tokenizedString = tokenize(req.data);
-
+    
      if (err) return res.status(500).send("There was a problem tokenizing.");
 
     /**tokenizedString is an array of tokens at this point so we can join them into a string with a space between each token**/
